@@ -1,0 +1,34 @@
+{
+  "name": "2-end-app",
+  "version": "1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && tsc --project tsconfig.server.json",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "@mui/system": "^6.4.8",
+    "dotenv": "^16.4.7",
+    "next": "^15.2.3",
+    "nprogress": "^0.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "prettier": "^3.5.3"
+  }
+}

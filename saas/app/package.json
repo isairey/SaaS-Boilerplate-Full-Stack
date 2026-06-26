@@ -1,0 +1,63 @@
+{
+  "name": "app-same-as-10-end-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": "18.17.0",
+    "yarn": "1.22.19"
+  },
+  "scripts": {
+    "dev": "nodemon server/server.ts",
+    "lint": "eslint . --ext .ts,.tsx",
+    "postinstall": "rm -rf production-server/",
+    "build": "next build && tsc --project tsconfig.server.json && cp server/robots.txt production-server",
+    "start": "node production-server/server.js"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "@stripe/stripe-js": "^2.2.0",
+    "express": "^4.18.2",
+    "he": "^1.2.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "keycode": "^2.2.0",
+    "lru-cache": "^10.1.0",
+    "marked": "^11.0.0",
+    "mobx": "^6.12.0",
+    "mobx-react": "^9.1.0",
+    "moment": "^2.29.4",
+    "next": "^14.0.4",
+    "next-transpile-modules": "^10.0.1",
+    "nprogress": "0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-mentions": "^4.4.10",
+    "sitemap": "^7.1.1",
+    "socket.io-client": "^4.7.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/express": "^4.17.21",
+    "@types/he": "^1.2.3",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
