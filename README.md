@@ -112,7 +112,7 @@ git clone https://github.com/isairey/SaaS-Boilerplate-Full-Stack.git
 ## 2. Entrar al proyecto
 
 ```bash
-cd saas-boilerplate
+cd SaaS-Boilerplate-Full-Stack
 ```
 
 ---
