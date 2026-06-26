@@ -376,3 +376,4 @@ La arquitectura está diseñada para soportar aplicaciones SaaS de producción g
 # 📄 Licencia
 
 Este proyecto se distribuye bajo la licencia **MIT**, permitiendo su uso, modificación y distribución para proyectos personales y comerciales.
+
