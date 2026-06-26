@@ -75,7 +75,7 @@ El proyecto está dividido en múltiples aplicaciones independientes:
 # 📂 Estructura del Proyecto
 
 ```
-📦 SaaS Boilerplate
+📦 SaaS-Boilerplate-Full-Stack
 │
 ├── app/
 │   ├── components/
