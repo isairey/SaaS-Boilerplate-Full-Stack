@@ -104,7 +104,7 @@ El proyecto está dividido en múltiples aplicaciones independientes:
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/saas-boilerplate.git
+git clone https://github.com/isairey/SaaS-Boilerplate-Full-Stack.git
 ```
 
 ---
